@@ -1,3 +1,12 @@
-1. Get name, favorite food, year, and age.
-2. Print greeting.
-3. Calculate birth year (optional).
+#1. Get name, favorite food, year, and age.
+name = input ("enter your name :")
+favorite_food = input(" enter your favorite food:" )
+age=int(input("enter your age:"))
+#2. Print greeting.
+name=input("enter your name:")
+print(f"hello {name},nice to meet you!")
+#3. Calculate birth year (optional).
+current_year=int(input("enter current year:"))
+age=int(input("enter your age:"))
+birth_year=current_yaer -age
+print(f"you were born in {birth-year}.")
